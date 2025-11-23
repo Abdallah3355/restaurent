@@ -1,0 +1,93 @@
+body {
+  background: #000 ;
+  color: #fff ;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  min-height: 100vh;
+}
+
+a,
+a:visited,
+a:active {
+  color: #ffbe33;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff333;
+  text-decoration: underline;
+}
+
+/* Navbar overrides */
+.navbar {
+  background: #111 !important;
+}
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .nav-link:visited {
+  color: #fff !important;
+}
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+  color: #ffbe33 !important;
+}
+
+/* Card & Form overrides (Bootstrap) */
+.card {
+  background: #181818;
+  color: #fff;
+  border: 1px solid #222;
+}
+
+.form-control,
+.form-control:focus {
+  background: #222;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+label {
+  color: #fff;
+}
+
+/* Footer */
+footer.bg-light {
+  background: #111 !important;
+  color: #fff !important;
+  border-top: 1px solid #222;
+}
+
+/* Quick info boxes */
+.bg-light {
+  background: #181818 !important;
+  color: #fff !important;
+  border: 1px solid #222 !important;
+}
+
+/* Buttons */
+.btn,
+.btn-primary,
+.btn-warning,
+.btn-outline-primary {
+  color: #fff;
+  background: #222;
+  border: 1px solid #ffbe33;
+}
+.btn-primary,
+.btn-warning {
+  background: #ffbe33;
+  color: #111 !important;
+  border: none;
+}
+.btn-primary:hover,
+.btn-warning:hover,
+.btn-outline-primary:hover {
+  background: #fff;
+  color: #222 !important;
+}
+
+/* Ensure inputs, selects, buttons have white type */
+input, select, textarea, button {
+  color: #fff !important;
+  background: #222 !important;
+  border-color: #555 !important;
+}
